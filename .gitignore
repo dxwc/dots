@@ -5,3 +5,8 @@
 !.vim/
 !.vim/*
 .vim/.netrwhist
+!scripts/
+!scripts/*
+!Documents/
+!Documents/*
+!Documents/saved/*
