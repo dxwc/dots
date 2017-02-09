@@ -119,4 +119,4 @@ fi
 
 #------------------------------------------
 
-alias o='nautilus --no-desktop --new-window . &'
+alias o='nautilus --no-desktop --new-window . >/dev/null 2>&1'
