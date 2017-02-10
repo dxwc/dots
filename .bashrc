@@ -117,6 +117,61 @@ if ! shopt -oq posix; then
 fi
 
 
-#------------------------------------------
+#-------------------------------------------------------------
 
 alias o='nautilus --no-desktop --new-window . >/dev/null 2>&1'
+alias pdf='clear; evince'
+alias c='clear'
+alias cc='clear && ls -a'
+alias ..='cd ..'
+alias eee='exit'
+alias mv='mv -i "$@"'
+alias rm='rm -i "$@"'
+alias cp='cp -i "$@"'
+alias img='eog "$@"'
+alias pp='python3 "$@"'
+
+alias gitgo='git add -u .; git commit; git push -u origin master'
+alias gcom='git commit'
+alias gpush='git push -u origin master'
+alias gstat='git status'
+
+alias usb='cd /media/leo/ '
+alias trash='cd .local/share/Trash/files/'
+alias vv='vim ~/vimwiki/index.wiki'
+alias m='echo "###################################################################"'
+
+export LESS_TERMCAP_mb=$'\E[01;31m'
+export LESS_TERMCAP_md=$'\E[01;31m'
+export LESS_TERMCAP_me=$'\E[0m'
+export LESS_TERMCAP_se=$'\E[0m'
+export LESS_TERMCAP_so=$'\E[01;44;33m'
+export LESS_TERMCAP_ue=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[01;32m'
+
+PS1='\[\e]0;\u@\h: \w\a\]\[\]\[\][\[\e[01;32m\]\[\e[00m\]\w]\[\]$(if [[ $? == 0 ]]; then echo "\[\]"; else echo "\[\]"; fi) \[\]'
+
+function cd {
+    builtin cd "$@" && clear && ls -a
+}
+function glog {
+	clear
+	git log --graph --pretty=format:'%C(bold black)%s%Creset %C(bold blue)- %an%Creset %Cgreen(%cr)%Creset' --abbrev-commit
+	echo ""
+}
+temp()
+{
+	local tdir=$(mktemp -d /tmp/deleteme-XXX)
+	cd $tdir
+}
+test() {
+	local tdir=$(mktemp -d /tmp/deleteme-XXX)
+	cd $tdir
+cat > Makefile <<"EOF"
+all:
+	g++ -std=c++14 test.cpp
+EOF
+	vim test.cpp
+}
+
+# Most things are copied from somewhere

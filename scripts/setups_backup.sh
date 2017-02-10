@@ -13,7 +13,7 @@
 
 cd /home/leo/
 git add -u .
-git commit -m "Auto-commit `date`"
+git commit -m "auto commit @ `date +%s`"
 git push -u origin master
 
 exit 0
