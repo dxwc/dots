@@ -1,0 +1,29 @@
+.
+├── autoload
+│   └── pathogen.vim
+├── bundle
+│   ├── a.vim
+│   ├── delimitmate
+│   ├── goyo.vim
+│   ├── nerdcommenter
+│   ├── OmniCppComplete
+│   ├── supertab
+│   ├── tagbar
+│   ├── tlib_vim
+│   ├── vim-addon-mw-utils
+│   ├── vim-cpp-enhanced-highlight
+│   ├── vim-easy-align
+│   ├── vim-headerguard
+│   ├── vim-skeleton
+│   ├── vim-snipmate
+│   ├── vim-snippets
+│   └── vim-surround
+├── dir_struct.txt
+├── tags
+│   ├── cpp
+│   └── cpp_src
+└── templates
+    ├── skel.cpp
+    └── skel.java
+
+21 directories, 5 files

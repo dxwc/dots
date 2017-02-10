@@ -6,7 +6,7 @@ _Last updated for Ubuntu 16.04 LTS_
 
 ## Update, Common installs
 + `sudo apt update`
-+ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags`
++ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree`
 + `sudo apt get upgrade`
 + To view this file locally as html, run:
 	+ `pandoc thisFileName.md > /tmp/a_temp.html && firefox /tmp/a_temp.html`
