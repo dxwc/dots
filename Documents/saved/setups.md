@@ -11,6 +11,9 @@ _Last updated for Ubuntu 16.04 LTS_
 + To view this file locally as html, run:
 	+ `pandoc thisFileName.md > /tmp/a_temp.html && firefox /tmp/a_temp.html`
 
+## Set vim as the default git-commit editor
++ `git config --global core.editor "vim"`
+
 ## Swap ESC with Caps lock
 Tweak Tool > Typing > Caps Lock Key behavior and select "Swap ESC and Caps Lock"
 
