@@ -141,8 +141,7 @@ alias trash='cd .local/share/Trash/files/'
 #alias vv='vim ~/vimwiki/index.wiki'
 
 # Using https://github.com/dxwc/youtube_subscriber
-alias ytube='cd ~/Documents/misc/youtube_subscriber/executable_and_data/;
-./ytube_gui &'
+alias ytube='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; 1>/dev/null ./ytube_gui &'
 alias ysub='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; ./run -sub "$@"'
 alias yview='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; ./run -gen -view'
 

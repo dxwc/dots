@@ -128,3 +128,5 @@ set tags+=~/.vim/tags/cpp
 "set tags+=~/.vim/tags/gl
 "set tags+=~/.vim/tags/sdl
 "set tags+=~/.vim/tags/qt4
+
+let g:indentLine_char = '┆'

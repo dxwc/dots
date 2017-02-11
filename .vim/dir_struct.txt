@@ -5,6 +5,7 @@
 │   ├── a.vim
 │   ├── delimitmate
 │   ├── goyo.vim
+│   ├── indentLine
 │   ├── nerdcommenter
 │   ├── OmniCppComplete
 │   ├── supertab
@@ -26,4 +27,4 @@
     ├── skel.cpp
     └── skel.java
 
-21 directories, 5 files
+22 directories, 5 files
