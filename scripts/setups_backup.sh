@@ -32,4 +32,13 @@ then
     git push -u origin master
 fi
 
+# Push if there is anything to commit, should work for most of my cases
+cd /home/leo/Documents/misc/youtube_subscriber/executable_and_data/
+git add -u .
+git commit -m "auto commit @ `date +%s`"
+if [ $? -eq 0 ]
+then
+    git push -u origin master
+fi
+
 exit 0

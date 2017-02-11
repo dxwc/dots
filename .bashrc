@@ -138,8 +138,15 @@ alias gstat='git status'
 
 alias usb='cd /media/leo/ '
 alias trash='cd .local/share/Trash/files/'
-alias vv='vim ~/vimwiki/index.wiki'
-alias m='echo "###################################################################"'
+#alias vv='vim ~/vimwiki/index.wiki'
+
+# Using https://github.com/dxwc/youtube_subscriber
+alias ytube='cd ~/Documents/misc/youtube_subscriber/executable_and_data/;
+./ytube_gui &'
+alias ysub='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; ./run -sub "$@"'
+alias yview='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; ./run -gen -view'
+
+alias m='echo "#########################################################"'
 
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
@@ -151,10 +158,12 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 
 PS1='\[\e]0;\u@\h: \w\a\]\[\]\[\][\[\e[01;32m\]\[\e[00m\]\w]\[\]$(if [[ $? == 0 ]]; then echo "\[\]"; else echo "\[\]"; fi) \[\]'
 
-function cd {
+function cd
+{
     builtin cd "$@" && clear && ls -a
 }
-function glog {
+function glog
+{
 	clear
 	git log --graph --pretty=format:'%C(bold black)%s%Creset %C(bold blue)- %an%Creset %Cgreen(%cr)%Creset' --abbrev-commit
 	echo ""
@@ -164,7 +173,8 @@ temp()
 	local tdir=$(mktemp -d /tmp/deleteme-XXX)
 	cd $tdir
 }
-test() {
+test()
+{
 	local tdir=$(mktemp -d /tmp/deleteme-XXX)
 	cd $tdir
 cat > Makefile <<"EOF"
