@@ -12,12 +12,7 @@
 #- 59 *    * * *   leo     /home/leo/scripts/setups_backup.sh
 
 # If directory/files changed, update the file with dir strucutre
-newtree=$(tree -L 2 /home/leo/.vim/)
-oldtree=$(/home/leo/.vim/dir_struct.txt)
-
-if [ "$newtree" == "$oldtree" ]; then
-    $newtree > /home/leo/.vim/dir_struct.txt
-fi
+tree -L 2 /home/leo/.vim/ > /home/leo/.vim/dir_struct.txt
 
 # Push if there is anything to commit, should work for most of my cases
 cd /home/leo/
