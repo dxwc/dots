@@ -19,6 +19,7 @@
 │   ├── vim-snippets
 │   └── vim-surround
 ├── dir_struct.txt
+├── stuff
 ├── tags
 │   ├── cpp
 │   └── cpp_src
@@ -26,4 +27,4 @@
     ├── skel.cpp
     └── skel.java
 
-21 directories, 5 files
+21 directories, 6 files
