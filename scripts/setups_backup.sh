@@ -11,9 +11,16 @@
 #- For hourly I added:
 #- 59 *    * * *   leo     /home/leo/scripts/setups_backup.sh
 
+tree -L 2 /home/leo/.vim/ > /home/leo/.vim/dir_struct.txt
+
 cd /home/leo/
 git add -u .
-git commit -m "auto commit @ `date +%s`"
+git commit -m "auto commit @ `date +%s`" ||
+git push -u origin master
+
+cd /home/leo/.vim/
+git add .
+git commit -m "auto commit @ `date +%s`" ||
 git push -u origin master
 
 exit 0

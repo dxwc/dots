@@ -1,4 +1,4 @@
-.
+/home/leo/.vim/
 ├── autoload
 │   └── pathogen.vim
 ├── bundle
