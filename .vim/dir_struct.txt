@@ -18,6 +18,7 @@
 │   ├── vim-snipmate
 │   ├── vim-snippets
 │   └── vim-surround
+├── deleteme
 ├── delete-me
 ├── dir_struct.txt
 ├── tags
@@ -27,4 +28,4 @@
     ├── skel.cpp
     └── skel.java
 
-21 directories, 6 files
+21 directories, 7 files
