@@ -12,6 +12,7 @@
 │   ├── tagbar
 │   ├── tlib_vim
 │   ├── vim-addon-mw-utils
+│   ├── vim-colorschemes
 │   ├── vim-cpp-enhanced-highlight
 │   ├── vim-easy-align
 │   ├── vim-headerguard
@@ -27,4 +28,4 @@
     ├── skel.cpp
     └── skel.java
 
-22 directories, 5 files
+23 directories, 5 files
