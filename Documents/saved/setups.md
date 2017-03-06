@@ -6,7 +6,7 @@ _Last updated for Ubuntu 16.04 LTS_
 
 ## Update, Common installs
 + `sudo apt update`
-+ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree`
++ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree fonts-hack-ttf`
 + `sudo apt get upgrade`
 + To view this file locally as html, run:
 	+ `pandoc thisFileName.md > /tmp/a_temp.html && firefox /tmp/a_temp.html`
@@ -36,7 +36,6 @@ Tweak Tool > Windows > Focus Mode: Sloppy
 	+ Uncheck terminal bell
 	+ Custom font "Hack Regular" 20
 		+ <https://github.com/chrissimpkins/Hack>
-		+ `sudo apt install fonts-hack-ttf`
 	+ Uncheck Use colors from system theme:
 		+ Text color: #3F3F3F
 		+ Bold color: #000000
