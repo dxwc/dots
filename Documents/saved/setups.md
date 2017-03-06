@@ -34,8 +34,7 @@ Tweak Tool > Windows > Focus Mode: Sloppy
 + System Settings > Keyboard ; Uncheck "Cursor Blinks in text fields"
 + Profile settings
 	+ Uncheck terminal bell
-	+ Custom font "Hack Regular" 20
-		+ <https://github.com/chrissimpkins/Hack>
+	+ Custom font "[Hack Regular](https://github.com/chrissimpkins/Hack)" 20
 	+ Uncheck Use colors from system theme:
 		+ Text color: #3F3F3F
 		+ Bold color: #000000
