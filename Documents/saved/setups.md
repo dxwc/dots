@@ -36,6 +36,7 @@ Tweak Tool > Windows > Focus Mode: Sloppy
 	+ Uncheck terminal bell
 	+ Custom font "Hack Regular" 20
 		+ <https://github.com/chrissimpkins/Hack>
+		+ `sudo apt install fonts-hack-ttf`
 	+ Uncheck Use colors from system theme:
 		+ Text color: #3F3F3F
 		+ Bold color: #000000
