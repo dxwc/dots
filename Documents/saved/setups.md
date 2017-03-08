@@ -9,7 +9,6 @@ _Last updated for Ubuntu 16.04 LTS_
 + `sudo apt update`
 + `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree fonts-hack-ttf ubuntu-make`
 + `sudo umake ide pycharm`
-+ `sudo umake ide clion`
 + `sudo apt update`
 + `sudo apt get upgrade`
 	+ Better to do this after setting everything up from below
