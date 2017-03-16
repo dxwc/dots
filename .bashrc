@@ -184,3 +184,5 @@ EOF
 }
 
 # Most things are copied from somewhere
+
+alias go='cd Documents/misc/; ./run -gen -view; exit'
