@@ -7,7 +7,7 @@ _Last updated for Ubuntu 16.04 LTS_
 ## Update, Common installs
 + `sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make`
 + `sudo apt update`
-+ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree fonts-hack-ttf ubuntu-make`
++ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree fonts-hack-ttf ubuntu-make texlive-latex-base`
 + [javascript setup](./js_setup.md)
 + `sudo apt update`
 + `sudo apt get upgrade`
