@@ -200,3 +200,13 @@ site()
         fi
     fi
 }
+
+mirror()
+{
+# https://help.github.com/articles/duplicating-a-repository/
+    cd /tmp/;
+    rm -rf dxwc.github.io.git;
+    git clone https://github.com/dxwc/dxwc.github.io.git;
+    cd dxwc.github.io;
+    git push --mirror https://dxwc@gitlab.com/dxwc/dxwc.gitlab.io.git;
+}
