@@ -186,3 +186,17 @@ EOF
 # Most things are copied from somewhere
 
 alias go='cd Documents/misc/; ./run -gen -view; exit'
+
+site()
+{
+    if [ -z "$@" ]; then
+        echo "Need filename"
+    else
+        if [[ "$@" == *.md ]]; then
+#EDIT THE LINE BELOW, NEEDS ABSOLUTE URL TO THE TEMPLATE FILE
+            pandoc -s --template=/home/leo/dxwc.github.io/mdhtml_pandoc.templ -o $(basename "$@" .md).html "$@"
+        else
+            echo "Not markdown (.md) file"
+        fi
+    fi
+}
