@@ -204,9 +204,9 @@ site()
 mirror()
 {
 # https://help.github.com/articles/duplicating-a-repository/
-    cd /tmp/;
-    rm -rf dxwc.github.io.git;
-    git clone https://github.com/dxwc/dxwc.github.io.git;
-    cd dxwc.github.io;
-    git push --mirror https://dxwc@gitlab.com/dxwc/dxwc.gitlab.io.git;
+    rm -rf /tmp/dxwc.github.io &&
+    cd /tmp/ &&
+    git clone https://github.com/dxwc/dxwc.github.io.git &&
+    cd dxwc.github.io &&
+    git push --mirror https://dxwc@gitlab.com/dxwc/dxwc.gitlab.io.git
 }
