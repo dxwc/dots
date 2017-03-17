@@ -10,6 +10,6 @@
     + `"telemetry.enableCrashReporter": false,`
     + `"telemetry.enableTelemetry": false,`
     + `"window.zoomLevel": 3`
-  + `Alt + Ctrl + J` (+ many need to select or type run) to run
-  + `Alt + Ctrl + M` to stop running
+  + `Alt + Ctrl + j` (+ many need to select or type run) to run
+  + `Alt + Ctrl + m` to stop running
   + or see latest instruction from the link
