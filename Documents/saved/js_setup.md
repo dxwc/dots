@@ -13,3 +13,4 @@
   + `Alt + Ctrl + j` (+ many need to select or type run) to run
   + `Alt + Ctrl + m` to stop running
   + or see latest instruction from the link
++ `sudo npm install express --save`
