@@ -28,4 +28,18 @@ Another method:
   + Create and cd into a directory
   + run `npm init` to generate a package.json file interactively
   + `sudo npm install --save express` -- will add approrpriate things in package.json and save appropraite node modules
-  + To start server: `node index.js` -- or whatever file is written to as specified as entry point in the package.json file (after having written to it)
+  + To start server: `node index.js` -- or whatever file is written to as specified as entry point in the package.json file (after having written to it). Example test code:
+
+        var express = require('express');
+        var app = express();
+        var port = 2000;
+        app.listen(
+            port,
+            function(err, response) // callback function
+            {
+                if(err)
+                { console.log('server error!'); }
+                else
+                { console.log('server started at port', port); }
+            }
+            );
