@@ -13,6 +13,7 @@
   + `Alt + Ctrl + j` (+ many need to select or type run) to run
   + `Alt + Ctrl + m` to stop running
   + or see latest instruction from the link
++ `sudo npm -g install nodemon` -- helps automatically restart server on change
 + `sudo npm -g install express`
 + `sudo apt install node-express-generator`
   + To generate a express app: create and go into a folder and run `express`
@@ -43,3 +44,5 @@ Another method:
                 { console.log('server started at port', port); }
             }
             );
+        
+  + Another method to run after instlaling nodemon is `nodemon index.js`, this automatically restarts server on file change (so don't need to worry about restarting on change, just reloading the webpage will do for debugging)
