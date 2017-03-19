@@ -13,4 +13,19 @@
   + `Alt + Ctrl + j` (+ many need to select or type run) to run
   + `Alt + Ctrl + m` to stop running
   + or see latest instruction from the link
-+ `sudo npm install express`
++ `sudo npm -g install express`
++ `sudo apt install node-express-generator`
+  + To generate a express app: create and go into a folder and run `express`
+  + [link to a good tutorial](https://youtu.be/Q1jAw44_E8c?list=PLGquJ_T_JBMTpKQptCmBDM9HcYrptCV0Z)]
+  + Install dependencies specified in package.json folder:
+    + `cd . && npm install`
++ package.json should contain a start property, which will call ./bin/www which contains code to listen on port 3000
+  + `npm start` to start up the server
+  
+Another method:
+
++ Setting up a server:
+  + Create and cd into a directory
+  + run `npm init` to generate a package.json file interactively
+  + `sudo npm install --save express` -- will add approrpriate things in package.json and save appropraite node modules
+  + To start server: `node index.js` -- or whatever file is written to as specified as entry point in the package.json file (after having written to it)
