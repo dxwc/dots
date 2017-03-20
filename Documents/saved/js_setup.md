@@ -46,3 +46,8 @@ Another method:
             );
         
   + Another method to run after instlaling nodemon is `nodemon index.js`, this automatically restarts server on file change (so don't need to worry about restarting on change, just reloading the webpage will do for debugging)
+
+
+-------
+
++ A good looking [express.js cheatcheat](https://github.com/azat-co/cheatsheets/tree/master/express4) that might be helpful
