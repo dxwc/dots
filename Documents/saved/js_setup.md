@@ -9,7 +9,8 @@
     + `"update.channel": "none",`
     + `"telemetry.enableCrashReporter": false,`
     + `"telemetry.enableTelemetry": false,`
-    + `"window.zoomLevel": 3`
+    + `"window.zoomLevel": 3,`
+    + `"editor.cursorBlinking": "solid"`
   + `Alt + Ctrl + j` (+ many need to select or type run) to run
   + `Alt + Ctrl + m` to stop running
   + or see latest instruction from the link
@@ -50,4 +51,4 @@ Another method:
 
 -------
 
-+ A good looking [express.js cheatcheat](https://github.com/azat-co/cheatsheets/tree/master/express4) that might be helpful
++ A good looking [express.js cheatsheet](https://github.com/azat-co/cheatsheets/tree/master/express4) that might be helpful
