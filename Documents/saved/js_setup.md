@@ -59,7 +59,8 @@ Learning the basics of deplyments
     + `sudo apt-get install heroku`
   + After that cd into app directory, have a `Package.json` (`npm init` to generate as needed) there and:
     + `heroku login`
-    + `heroku create`
+    + `heroku create` (if first time, do these before create: `git init`, `git config...` `git add/commit....`)
+      + The create function will add the remote to git (can be viewed by `git remote -v`)
     + `git push heroku master` deploys
     + Ensure running: `heroku ps:scale web=1`
     + view `heroku open`
