@@ -47,6 +47,10 @@ Another method:
             );
         
   + Another method to run after instlaling nodemon is `nodemon index.js`, this automatically restarts server on file change (so don't need to worry about restarting on change, just reloading the webpage will do for debugging)
+  
+Learning the basics of deplyments
+  + Heroku gives a free aaccount to try out things
+  + <https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction>
 
 
 -------
