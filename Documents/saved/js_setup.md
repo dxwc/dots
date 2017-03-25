@@ -57,7 +57,7 @@ Learning the basics of deplyments
     + `curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add - `
     + `sudo apt-get update`
     + `sudo apt-get install heroku`
-  + After that cd into app directory, have a `Package.json` there and:
+  + After that cd into app directory, have a `Package.json` (`npm init` to generate as needed) there and:
     + `heroku login`
     + `heroku create`
     + `git push heroku master` deploys
