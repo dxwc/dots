@@ -49,6 +49,7 @@ Another method:
   + Another method to run after instlaling nodemon is `nodemon index.js`, this automatically restarts server on file change (so don't need to worry about restarting on change, just reloading the webpage will do for debugging)
   
 Learning the basics of deplyments
+<strike>
   + Heroku gives a free aaccount to try out things
   + <https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction>
   + See here for installation instruction: <https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up>
@@ -57,14 +58,16 @@ Learning the basics of deplyments
     + `curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add - `
     + `sudo apt-get update`
     + `sudo apt-get install heroku`
-  + After that cd into app directory, have a `Package.json` (`npm init` to generate as needed) there and:
+  + After that cd into app directory, have a `Package.json` (`npm init` to generate as needed) there:
+    + On code, make sure to use their port from env: <http://stackoverflow.com/a/7503665>
+    + T he Package.json will need these added: `"scripts": { "start": "node server.js" }`
     + `heroku login`
     + `heroku create` (if first time, do these before create: `git init`, `git config...` `git add/commit....`)
       + The create function will add the remote to git (can be viewed by `git remote -v`)
     + `git push heroku master` deploys
     + Ensure running: `heroku ps:scale web=1`
     + view `heroku open`
-
+</strike>
 
 -------
 
