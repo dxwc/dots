@@ -51,6 +51,18 @@ Another method:
 Learning the basics of deplyments
   + Heroku gives a free aaccount to try out things
   + <https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction>
+  + See here for installation instruction: <https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up>
+  + As of now it is:
+    + `sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"`
+    + `curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add - `
+    + `sudo apt-get update`
+    + `sudo apt-get install heroku`
+  + After that cd into app directory, have a `Package.json` there and:
+    + `heroku login`
+    + `heroku create`
+    + `git push heroku master` deploys
+    + Ensure running: `heroku ps:scale web=1`
+    + view `heroku open`
 
 
 -------
