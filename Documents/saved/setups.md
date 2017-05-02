@@ -6,8 +6,9 @@ _Last updated for Ubuntu 16.04 LTS_
 
 ## Update, Common installs
 + `sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make`
++ `sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder`
 + `sudo apt update`
-+ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree fonts-hack-ttf ubuntu-make texlive-latex-base texlive-fonts-recommended texlive-latex-recommended vlc`
++ `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree fonts-hack-ttf ubuntu-make texlive-latex-base texlive-fonts-recommended texlive-latex-recommended vlc simplescreenrecorder`
 + [javascript setup](./js_setup.md)
 + `sudo apt update`
 + `sudo apt get upgrade`
