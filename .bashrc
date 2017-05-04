@@ -145,7 +145,7 @@ alias ytube='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; 1>/dev
 alias ysub='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; ./run -sub "$@"'
 alias yview='cd ~/Documents/misc/youtube_subscriber/executable_and_data/; ./run -gen -view'
 
-alias m='echo "#########################################################"'
+alias m='printf "\n#########################################################\n\n"'
 
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
