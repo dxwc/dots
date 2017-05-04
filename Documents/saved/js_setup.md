@@ -1,7 +1,6 @@
 # Javascript Setup
+_Last updated for Ubuntu 16.04 LTS, continued from [setups.md](./setups.md)_
 
-+ `sudo apt install nodejs` // to run javascript
-+ `sudo apt install npm` // node.js package manager
 + `sudo ln -s /usr/bin/nodejs /usr/bin/node`
 + `umake ide visual-studio-code`
   + From left click on the extension icon, clear and search and install "[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)"
