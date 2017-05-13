@@ -22,6 +22,10 @@ _Last updated for Ubuntu 16.04 LTS_
 ## Swap ESC with Caps lock
 Tweak Tool > Typing > Caps Lock Key behavior and select "Swap ESC and Caps Lock"
 
+## Sound
+Icon on top right > Sound setting > Check allow louder than 100%    
+Input > mute
+
 ## General font size
 Tweak Tool > Fonts > Set everything to 14 at default Ubuntu font
 
