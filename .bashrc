@@ -210,3 +210,5 @@ mirror()
     cd dxwc.github.io &&
     git push --mirror https://dxwc@gitlab.com/dxwc/dxwc.gitlab.io.git
 }
+
+alias ff='firefox -no-remote -P &'
