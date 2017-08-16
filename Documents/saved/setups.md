@@ -35,6 +35,17 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 + restart to take effect for above
 + Tweak Tool > Windows > Focus Mode: Sloppy
 
++ Open visual studio code
+	+ install code runner extension
+	+ file preference > settings  and add these to the right inside {}:
+	+ ```
+	    "update.channel": "none",
+	    "telemetry.enableCrashReporter": false,
+	    "telemetry.enableTelemetry": false,
+	    "window.zoomLevel": 2.7,
+	    "editor.cursorBlinking": "solid"
+	  ```
+
 + bottom right, click sound icon > sound settings > 
 	+ Sound effect > turn off at altert volume
 	+ input > turn off at input volume
