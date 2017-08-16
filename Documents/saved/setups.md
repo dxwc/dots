@@ -1,5 +1,7 @@
 # Solus initial setup info
 
+Software center, update (wait for it to finish)
+
 Mouse and Touchpad > Touchpad section : natural scrolling : off
 
 `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
@@ -12,6 +14,13 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 + gnome-terminal > Edit > Propfile Preference > Scrolling > Uncheck show scrollbar
 
 bottom right open settings tab > click gear icon > font > set everything but window title to 14
+
++ `sudo eopkg install gnome-tweak-tool`
++ `gnome-tweak-tool &`
++ Typing > caps lock key behavior > Swap esc to caps lock
++ restart to take effect
+
+`sudo eopkg install vi vim`
 
 
 
