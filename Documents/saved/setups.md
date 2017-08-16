@@ -5,7 +5,7 @@ Software center, update (wait for it to finish)
 Mouse and Touchpad > Touchpad section : natural scrolling : off
 
 + `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
-+ `sudo eopkg install vim git pandoc vlc kdenlive simplescreenrecorder ufw vscode guvcview`
++ `sudo eopkg install vim git pandoc vlc kdenlive simplescreenrecorder ufw vscode guvcview gitg`
 + `sudo ufw enable`
 + `git config --global core.editor "vim"`
 
@@ -16,6 +16,7 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 + gnome-terminal > Edit > Propfile Preference
 	+ General
 		+ Uncheck Terminal Bell
+		+ check to enable custom font, set font to Hack regular, font size: 18
 		+ Column: 139, Row: 29
 	+ Colors
 		+ Uncheck transparency background
