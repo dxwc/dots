@@ -1,10 +1,16 @@
-# Solus initial setup info
+# Solus 3 initial setup info
 
 Software center, update (wait for it to finish)
 
 Mouse and Touchpad > Touchpad section : natural scrolling : off
 
-`sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
++ `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
++ `sudo eopkg install vim git pandoc vlc kdenlive simplescreenrecorder ufw vscode guvcview`
++ `sudo ufw enable`
++ `git config --global core.editor "vim"`
+
++ keyboard > go to the bottom "+" > command: `gnome-terminal &`, set shortcut : `ctrl + alt + t`
++ set another with with command: `gnome-screenshot -i &`, to shortcut: `ctrl + ;`
 
 + gnome-terminal > Edit > Preference > General > Uncheck show menubar
 + gnome-terminal > Edit > Propfile Preference
@@ -17,26 +23,39 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 		+ Uncheck show scrollbar
 		+ Uncheck show scrollbar
 
-bottom right open settings tab > click gear icon > font > set everything but window title to 14
++ bottom right open settings tab > click gear icon > font > set everything but window title to 14
+
++ software center, search: gimp > install, search
+
++ gimp > Window > (CHECK) Single Window Mode
 
 + `sudo eopkg install gnome-tweak-tool`
 + `gnome-tweak-tool &`
 + Typing > caps lock key behavior > Swap esc to caps lock
-+ restart to take effect
-
-`sudo eopkg install vim`
++ restart to take effect for above
++ Tweak Tool > Windows > Focus Mode: Sloppy
 
 + bottom right, click sound icon > sound settings > 
 	+ Sound effect > turn off at altert volume
 	+ input > turn off at input volume
++ bottom right, click on time > Preferences
+	+ Uncheck 24 hour time
+	+ check to show date
++ bottom right, click on bluetooth icon
+	+ bluetoooth settings > turn off bluetooth on top
 
 
 
 ---------------------
+---------------------
 
-Archieve :
+### Past archieve :
 
 ---------------------
+---------------------
+
+
+
 
 
 # My initial setups after a fresh install of Ubuntu
@@ -50,7 +69,7 @@ _Last updated for Ubuntu 16.04 LTS_
 + `sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder`
 + `sudo apt update`
 + `sudo apt install git gitk vim unity-tweak-tool gnome-tweak-tool secure-delete gimp pandoc exuberant-ctags tree fonts-hack-ttf ubuntu-make texlive-latex-base texlive-fonts-recommended texlive-latex-recommended vlc simplescreenrecorder nodejs npm libqt4-dev libcurl4-gnutls-dev`
-+ [Javascript setup](./js_setup.md)
++ [Javascript setup](https://github.com/dxwc/setups/blob/deac75c0e83e2c3165b37e118461aabf6b2fcf05/Documents/saved/js_setup.md)
 + `sudo apt get upgrade`
 	+ Better to do this after setting everything up from below
 	+ Restart after this
