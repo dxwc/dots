@@ -7,11 +7,15 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
 
 + gnome-terminal > Edit > Preference > General > Uncheck show menubar
-+ gnome-terminal > Edit > Propfile Preference > General > Uncheck Terminal Bell
-+ gnome-terminal > Edit > Propfile Preference > General > Column: 139, Row: 29
-+ gnome-terminal > Edit > Propfile Preference > Colors > Uncheck transparency background
-+ gnome-terminal > Edit > Propfile Preference > Scrolling > Uncheck show scrollbar
-+ gnome-terminal > Edit > Propfile Preference > Scrolling > Uncheck show scrollbar
++ gnome-terminal > Edit > Propfile Preference
+	+ General
+		+ Uncheck Terminal Bell
+		+ Column: 139, Row: 29
+	+ Colors
+		+ Uncheck transparency background
+	+ Scrolling
+		+ Uncheck show scrollbar
+		+ Uncheck show scrollbar
 
 bottom right open settings tab > click gear icon > font > set everything but window title to 14
 
@@ -21,6 +25,10 @@ bottom right open settings tab > click gear icon > font > set everything but win
 + restart to take effect
 
 `sudo eopkg install vim`
+
++ bottom right, click sound icon > sound settings > 
+	+ Sound effect > turn off at altert volume
+	+ input > turn off at input volume
 
 
 
