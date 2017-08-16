@@ -20,7 +20,7 @@ bottom right open settings tab > click gear icon > font > set everything but win
 + Typing > caps lock key behavior > Swap esc to caps lock
 + restart to take effect
 
-`sudo eopkg install vi vim`
+`sudo eopkg install vim`
 
 
 
