@@ -1,3 +1,27 @@
+# Solus initial setup info
+
+Mouse and Touchpad > Touchpad section : natural scrolling : off
+
+`sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
+
++ gnome-terminal > Edit > Preference > General > Uncheck show menubar
++ gnome-terminal > Edit > Propfile Preference > General > Uncheck Terminal Bell
++ gnome-terminal > Edit > Propfile Preference > General > Column: 139, Row: 29
++ gnome-terminal > Edit > Propfile Preference > Colors > Uncheck transparency background
++ gnome-terminal > Edit > Propfile Preference > Scrolling > Uncheck show scrollbar
++ gnome-terminal > Edit > Propfile Preference > Scrolling > Uncheck show scrollbar
+
+bottom right open settings tab > click gear icon > font > set everything but window title to 14
+
+
+
+---------------------
+
+Archieve :
+
+---------------------
+
+
 # My initial setups after a fresh install of Ubuntu
 _Last updated for Ubuntu 16.04 LTS_
 
