@@ -16,6 +16,13 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 + gnome-terminal > Edit > Propfile Preference
 	+ General
 		+ Uncheck Terminal Bell
+		+ Profile settings
+		+ Uncheck Use colors from system theme:
+			+ Text color: #3F3F3F
+			+ Bold color: #000000
+			+ Background color: #F2F1F0
+		+ Palette: Solarized
+		+ Uncheck show scrollbar, Uncheck limit scrollback
 		+ check to enable custom font, set font to Hack regular, font size: 18
 		+ Column: 139, Row: 29
 	+ Colors
