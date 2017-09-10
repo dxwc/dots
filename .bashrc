@@ -214,3 +214,5 @@ mirror()
 }
 
 alias ff='firefox -no-remote -P &'
+
+task next
