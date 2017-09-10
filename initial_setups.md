@@ -5,7 +5,7 @@ Software center, update (wait for it to finish)
 Mouse and Touchpad > Touchpad section : natural scrolling : off
 
 + `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
-+ `sudo eopkg install vim git pandoc vlc kdenlive simplescreenrecorder ufw vscode guvcview gitg taskwarrior`
++ `sudo eopkg install vim git pandoc vlc kdenlive gimp simplescreenrecorder ufw vscode guvcview gitg taskwarrior`
 + `sudo ufw enable`
 + `git config --global core.editor "vim"`
 
