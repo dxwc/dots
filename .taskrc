@@ -34,7 +34,8 @@ color=on
 color.alternate=black on color7
 color.calendar.weekend=on blue
 color.summary.background=yellow
+color.tagged=bold black
 
-color.uda.priority.H=bold white on red
+color.uda.priority.H=bold white on cyan
 color.uda.priority.L=bold white on green
 color.uda.priority.M=bold white on yellow
