@@ -1,9 +1,6 @@
 # Solus 3 initial setup info
 
-Software center, update (wait for it to finish)
-
-Mouse and Touchpad > Touchpad section : natural scrolling : off
-
++ Mouse and Touchpad > Touchpad section : natural scrolling : off
 + `sudo eopkg install vim git gnome-tweak-tool`
 + `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
 + `sudo eopkg install pandoc vlc kdenlive gimp simplescreenrecorder ufw vscode guvcview gitg taskwarrior quiterss`
@@ -62,7 +59,7 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 	+ check to show date
 + bottom right, click on bluetooth icon
 	+ bluetoooth settings > turn off bluetooth on top
-
++ Software center > update
 
 
 ---------------------
