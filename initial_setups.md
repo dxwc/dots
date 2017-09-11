@@ -4,8 +4,9 @@ Software center, update (wait for it to finish)
 
 Mouse and Touchpad > Touchpad section : natural scrolling : off
 
++ `sudo eopkg install vim git gnome-tweak-tool`
 + `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
-+ `sudo eopkg install vim git pandoc vlc kdenlive gimp simplescreenrecorder ufw vscode guvcview gitg taskwarrior`
++ `sudo eopkg install pandoc vlc kdenlive gimp simplescreenrecorder ufw vscode guvcview gitg taskwarrior quiterss`
 + `sudo ufw enable`
 + `git config --global core.editor "vim"`
 
@@ -37,7 +38,6 @@ Mouse and Touchpad > Touchpad section : natural scrolling : off
 
 + gimp > Window > (CHECK) Single Window Mode
 
-+ `sudo eopkg install gnome-tweak-tool`
 + `gnome-tweak-tool &`
 + Typing > caps lock key behavior > Swap esc to caps lock
 + restart to take effect for above
