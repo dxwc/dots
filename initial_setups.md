@@ -3,7 +3,7 @@
 + Mouse and Touchpad > Touchpad section : natural scrolling : off
 + `sudo eopkg install vim git gnome-tweak-tool`
 + `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
-+ `sudo eopkg install pandoc vlc kdenlive gimp simplescreenrecorder ufw vscode guvcview gitg taskwarrior quiterss simple-scan hplip-drivers`
++ `sudo eopkg install pandoc texlive-all vlc kdenlive gimp simplescreenrecorder ufw vscode guvcview gitg taskwarrior quiterss simple-scan hplip-drivers`
 + `sudo ufw enable`
 + `git config --global core.editor "vim"`
 
