@@ -25,7 +25,7 @@
 		+ Palette: Solarized
 		+ Uncheck show scrollbar, Uncheck limit scrollback
 		+ check to enable custom font, set font to Hack regular, font size: 18
-		+ Column: 139, Row: 29
+		+ Column: 80, Row: 16
 	+ Colors
 		+ Uncheck transparency background
 	+ Scrolling
