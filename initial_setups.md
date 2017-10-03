@@ -38,7 +38,7 @@
 
 + `gnome-tweak-tool &`
 + Typing > caps lock key behavior > Swap esc to caps lock
-+ restart to take effect for above
+	+ restart to take effect for above
 + Tweak Tool > Windows > Focus Mode: Sloppy
 
 + Open visual studio code
