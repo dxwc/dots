@@ -3,9 +3,12 @@
 + Mouse and Touchpad > Touchpad section : natural scrolling : off
 + `sudo eopkg install vim git gnome-tweak-tool`
 + `sudo eopkg it -c system.devel` -- [source](https://solus-project.com/forums/viewtopic.php?t=591)
++ Software center > update, needs to be done first for software packages below to install properly
 + `sudo eopkg install pandoc texlive-all vlc kdenlive gimp simplescreenrecorder ufw vscode guvcview gitg taskwarrior quiterss simple-scan hplip-drivers`
 + `sudo ufw enable`
 + `git config --global core.editor "vim"`
+
++ privacy > usages and history > off
 
 + keyboard > go to the bottom "+" > command: `gnome-terminal &`, set shortcut : `ctrl + alt + t`
 + set another with with command: `gnome-screenshot -i &`, to shortcut: `ctrl + ;`
@@ -59,7 +62,7 @@
 	+ check to show date
 + bottom right, click on bluetooth icon
 	+ bluetoooth settings > turn off bluetooth on top
-+ Software center > update
+
 
 
 ---------------------
