@@ -34,8 +34,6 @@
 
 + bottom right open settings tab > click gear icon > font > set everything but window title to 14
 
-+ software center, search: gimp > install, search
-
 + gimp > Window > (CHECK) Single Window Mode
 
 + `gnome-tweak-tool &`
