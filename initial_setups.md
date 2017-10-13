@@ -36,6 +36,11 @@
 
 + gimp > Window > (CHECK) Single Window Mode
 
++ Setup printer
+    1. Turn on printer
+    2. Login to router settings page and note the IP of the printer (if still reserved, it's will be `192.168.0.105`)
+    3. Menu > Printer Settings > Unlock > Add > Network printer > Find Network Printer > enter the IP address > Forward > Apply
+
 + `gnome-tweak-tool &`
 + Typing > caps lock key behavior > Swap esc to caps lock
 	+ restart to take effect for above
