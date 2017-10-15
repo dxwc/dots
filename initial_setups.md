@@ -3,7 +3,7 @@
 + Mouse and Touchpad > Touchpad section : natural scrolling : off
 + `sudo eopkg install vim git gnome-tweak-tool --yes`
 + `sudo eopkg it -c system.devel --yes`
-+ Software center > update, needs to be done first for software packages below to install properly
++ `sudo eopkg upgrade --yes`
 + `sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder ufw guvcview gitg taskwarrior quiterss simple-scan hplip-drivers postgresql sqlite3 pandoc texlive-all --yes`
 + `sudo ufw enable`
 + `git config --global core.editor "vim"`
