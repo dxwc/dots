@@ -4,7 +4,7 @@
 + `sudo eopkg install vim git gnome-tweak-tool --yes`
 + `sudo eopkg it -c system.devel --yes`
 + `sudo eopkg upgrade --yes`
-+ `sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder ufw guvcview gitg taskwarrior quiterss simple-scan hplip-drivers postgresql sqlite3 mongodb pandoc texlive-all --yes`
++ `sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder ufw guvcview gitg taskwarrior quiterss simple-scan hplip-drivers postgresql sqlite3 mongodb pandoc texlive-all cdrtools --yes`
 + `sudo ufw enable`
 + `git config --global core.editor "vim"`
 
