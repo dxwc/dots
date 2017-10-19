@@ -43,15 +43,12 @@
     1. Turn on printer
     2. Login to router settings page and note the IP of the printer (if still reserved, it's will be `192.168.0.105`)
     3. Menu > Printer Settings > Unlock > Add > Network printer > Find Network Printer > enter the IP address > Forward > Apply
-
++ `sudo vim /etc/profile` and add the line: `setxkbmap -option caps:swapescape`
 + `gnome-tweak-tool &`
-+ Typing > caps lock key behavior > Swap esc to caps lock
-	+ restart to take effect for above
-+ Tweak Tool > Windows > Focus Mode: Sloppy
-
+	+ Windows > Window focus > Sloppy
 + Open visual studio code
-	+ install code runner extension
-	+ file preference > settings  and add these to the right inside {}:
+	+ Install `Code Runner` and `Trailing Spaces` extension
+	+ File > Preference > Settings  and add these to the right inside {}:
 	+ ```
 	    "update.channel": "none",
 	    "telemetry.enableCrashReporter": false,
