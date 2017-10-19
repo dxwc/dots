@@ -174,45 +174,11 @@ temp()
 	local tdir=$(mktemp -d /tmp/deleteme-XXX)
 	cd $tdir
 }
-test()
-{
-	local tdir=$(mktemp -d /tmp/deleteme-XXX)
-	cd $tdir
-cat > Makefile <<"EOF"
-all:
-	g++ -std=c++14 test.cpp
-EOF
-	vim test.cpp
-}
 
 # Most things are copied from somewhere
 
 alias go='cd Documents/misc/; ./run -gen -view; exit'
-
-site()
-{
-    if [ -z "$@" ]; then
-        echo "Need filename"
-    else
-        if [[ "$@" == *.md ]]; then
-#EDIT THE LINE BELOW, NEEDS ABSOLUTE URL TO THE TEMPLATE FILE
-            pandoc -s --template=/home/leo/dxwc.github.io/mdhtml_pandoc.templ -o $(basename "$@" .md).html "$@"
-        else
-            echo "Not markdown (.md) file"
-        fi
-    fi
-}
-
-mirror()
-{
-# https://help.github.com/articles/duplicating-a-repository/
-    rm -rf /tmp/dxwc.github.io &&
-    cd /tmp/ &&
-    git clone https://github.com/dxwc/dxwc.github.io.git &&
-    cd dxwc.github.io &&
-    git push --mirror https://dxwc@gitlab.com/dxwc/dxwc.gitlab.io.git
-}
-
+alias godbg='cd Documents/misc/; ./run -gen -view'
 alias ff='firefox -no-remote -P &'
 
 task next
