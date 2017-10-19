@@ -10,8 +10,11 @@
 
 + privacy > usages and history > off
 
-+ keyboard > go to the bottom "+" > command: `gnome-terminal &`, set shortcut : `ctrl + alt + t`
-+ set another with with command: `gnome-screenshot -i &`, to shortcut: `ctrl + ;`
++ keyboard > go to the bottom "+" > command: 
+	+ `gnome-terminal` to `ctrl + alt + t`
+	+ `gnome-screenshot -i` to `ctrl + ;`
+	+ `nautilus --new-window` to `super + 2`
+	+ `firefox` to `super + 1`
 
 + gnome-terminal > Edit > Preference > General > Uncheck show menubar
 + gnome-terminal > Edit > Propfile Preference
