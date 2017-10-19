@@ -48,13 +48,16 @@
 	+ Windows > Window focus > Sloppy
 + Open visual studio code
 	+ Install `Code Runner` and `Trailing Spaces` extension
-	+ File > Preference > Settings  and add these to the right inside {}:
+	+ File > Preference > Settings  and add these to the right inside `{}`:
 	+ ```
 	    "update.channel": "none",
 	    "telemetry.enableCrashReporter": false,
 	    "telemetry.enableTelemetry": false,
 	    "window.zoomLevel": 2.7,
 	    "editor.cursorBlinking": "solid"
+	    "editor.tabSize": 4,
+	    "editor.insertSpaces": true,
+	    "editor.detectIndentation": false
 	  ```
 
 + bottom right, click sound icon > sound settings > 
