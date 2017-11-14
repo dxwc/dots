@@ -39,7 +39,9 @@
 
 + gimp > Window > (CHECK) Single Window Mode
 
-+ Firefox `about:config` set `toolkit.cosmeticAnimations.enabled` to false
++ Firefox `about:config` set
+    + `toolkit.cosmeticAnimations.enabled` to false
+    + `privacy.resistFingerprinting` to true
 
 + Setup printer
     1. Turn on printer
