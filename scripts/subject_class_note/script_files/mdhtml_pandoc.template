@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow"/>
+  <meta name="generator" content="pandoc" />
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <style type="text/css">
+    body
+    {
+        width: 70%;
+        float: left;
+        padding-left: 15%;
+        font-size: 150%;
+        line-height: 1.6em;
+    }
+    code
+    {
+        white-space: pre;
+    }
+    html
+    {
+        background-color: #fafafa;
+    }
+    img
+    {
+        max-width: 100%;
+    }
+    a
+    {
+        text-decoration: none;
+        color: #07a;
+        border-bottom: 1px solid;
+    }
+    strike
+    {
+        color : #ddd;
+    }
+    #footer a
+    {
+        margin-right: 1%;
+    }
+  </style>
+    $if(quotes)$
+      <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+    $endif$
+</head>
+<body>
+    <!-- $if(title)$
+        <h1 class="title">$title$</h1>
+    $endif$ -->
+    $if(date)$
+        <i>Created: $date$</i>
+        <hr />
+    $endif$
+    <div id='content'>
+        $body$
+        <hr />
+    </div>
+</body>
+
+</html>
