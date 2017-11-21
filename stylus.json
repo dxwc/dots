@@ -1,0 +1,51 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "hn",
+		"sections": [
+			{
+				"code": "/* For urls starting with:  https://news.ycombinator.com */\nbody\n{\n    background-color: #f6f6ef;\n}\n\n#hnmain\n{\n    width: 100%;\n    padding-left: 10%;\n    margin-top: -10px;\n    margin-left: -10px;\n    padding-right: 10%;\n}\n\ntd\n{\n    background-color: #f6f6ef;\n}\n\n\n.itemlist, .title, .sitestr, .comment, .comhead .age, .comhead .hnuser, .togg\n{\n    font-size: 2.5em !important;\n}\n\n.comment\n{\n    padding-bottom: 5%;\n}\n\n.subtext\n{\n    font-size: 1em !important;\n}\n\n.fatitem form, .reply, .votearrow, .pagetop\n{\n    display: none;\n}\n\na img\n{\n    filter: grayscale(100%);\n    position: absolute;\n    top: 1em;\n    left: 1em;\n}\n\n.comment-tree .votelinks\n{\n    border-left: 1em solid #828282;\n}\n\n.comment-tree\n{\n    margin-top: -30px;\n}\n\n.athing\n{\n    margin-top: -10px;\n}\n\n.hnmain\n{\n    margin-top: -50px;\n}",
+				"urls": [],
+				"urlPrefixes": [
+					"https://news.ycombinator.com"
+				],
+				"domains": [],
+				"regexps": []
+			},
+			{
+				"code": "",
+				"urls": [],
+				"urlPrefixes": [],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 1
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "hn-home",
+		"sections": [
+			{
+				"code": "/* \nFor URL: https://news.ycombinator.com/\nFor URL matching regexps: https:\\/\\/news\\.ycombinator\\.com\\/news.*\n*/\n\n.storylink, .title\n{\n    font-size: 1.2em !important;\n}",
+				"urls": [
+					"https://news.ycombinator.com/"
+				],
+				"urlPrefixes": [],
+				"domains": [],
+				"regexps": [
+					"https:\\/\\/news\\.ycombinator\\.com\\/news.*"
+				]
+			}
+		],
+		"id": 2
+	}
+]
