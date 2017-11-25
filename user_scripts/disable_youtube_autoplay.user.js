@@ -16,8 +16,27 @@
         (
             () =>
             {
-                if(document.getElementById('autoplay-checkbox').checked)
-                    document.getElementById('autoplay-checkbox').click();
+                /* Turn off next video autoplay */
+                if
+                (
+                    document
+                    .getElementById('autoplay-checkbox')
+                    .checked
+                )
+                    document
+                    .getElementById('autoplay-checkbox')
+                    .click();
+
+                /* Turn off annotations */
+                if
+                (
+                    document
+                    .getElementsByClassName('ytp-menuitem')[1]
+                    .getAttribute('aria-checked')
+                )
+                    document
+                    .getElementsByClassName('ytp-menuitem')[1]
+                    .setAttribute('aria-checked', false);
             },
             3000
         )
