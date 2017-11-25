@@ -9,7 +9,12 @@
 // @version      0.0.1
 // ==/UserScript==
 
-if(document.getElementById('autoplay-checkbox').checked)
-{
-    document.getElementById('autoplay-checkbox').click();
-}
+(
+    () =>
+    {
+        if(document.getElementById('autoplay-checkbox').checked)
+        {
+            document.getElementById('autoplay-checkbox').click();
+        }
+    }
+)();
