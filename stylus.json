@@ -47,5 +47,45 @@
 			}
 		],
 		"id": 2
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "yt-all",
+		"sections": [
+			{
+				"code": "#ticker-content,\n.yt-thumb-square,\n.yt-uix-button-subscription-container,\n#watch7-subscription-container,\n#kbd-nav-933941,\n#masthead-positioner,\n#guide\n{\n    display: none;\n}\n\n.yt-user-info\n{\n    margin-left: 0px !important;\n}\n\n#masthead-positioner-height-offset\n{\n    height: 0 !important;\n}",
+				"urls": [],
+				"urlPrefixes": [],
+				"domains": [
+					"youtube.com"
+				],
+				"regexps": []
+			}
+		],
+		"id": 3
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "yt-home",
+		"sections": [
+			{
+				"code": "body\n{\n    display: none;\n}\n\nhtml\n{\n    background-color: #ddd;\n}",
+				"urls": [
+					"https://www.youtube.com/"
+				],
+				"urlPrefixes": [],
+				"domains": [],
+				"regexps": []
+			}
+		],
+		"id": 4
 	}
 ]
