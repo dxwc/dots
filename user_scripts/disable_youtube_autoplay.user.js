@@ -10,11 +10,13 @@
 // ==/UserScript==
 
 (
-    () =>
-    {
-        if(document.getElementById('autoplay-checkbox').checked)
+    setTimeout
+    (
+        () =>
         {
-            document.getElementById('autoplay-checkbox').click();
-        }
-    }
+            if(document.getElementById('autoplay-checkbox').checked)
+                document.getElementById('autoplay-checkbox').click();
+        },
+        2000
+    )
 )();
