@@ -42,6 +42,8 @@
 + Firefox `about:config` set
     + `toolkit.cosmeticAnimations.enabled` to false
     + `privacy.resistFingerprinting` to true
+    + other about conig setttings to set and explanation [here](https://www.privacytools.io/#about_config)
+    + `about:healthreport` top right, turn off sharing info
 
 + Setup printer
     1. Turn on printer
