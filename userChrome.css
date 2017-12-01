@@ -1,0 +1,27 @@
+/* see about:profiles. In folder: chrome */
+#pageActionButton 
+{
+    display: none !important;
+} /* removes the ... clickable to the right of address bar */
+
+#nav-bar
+{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+} /* thinner nav bar */
+
+#navigator-toolbox::after
+{
+    display: none !important;
+} /* Partial removal of black bottom 1px line shown in fullscreen mode */
+
+
+#TabsToolbar
+{
+    visibility: collapse;
+} /* hides tab bar */
+
+#sidebar-header
+{
+    visibility: collapse;
+} /* Hides sidebar header including the tree style tab header */
