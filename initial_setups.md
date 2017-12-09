@@ -60,18 +60,6 @@
 	+ check to show date
 + bottom right, click on bluetooth icon
 	+ bluetoooth settings > turn off bluetooth on top
-+ Open QuiteRSS:
-	+ Top left > Show Menubar
-	+ File > Import Feeds - the backed up .opml feed file
-	+ View > Browser Position : Top
-	+ Tools > Options >
-	+ Uncheck automatically check for update
-	+ Uncheck sending usages information
-	+ Fees > Display format for feed > 12/31/1999
-	+ Browser >
-	+ Use external browser, uncheck bottom 2
-	+ Fonts and colors > set everything to 16
-	+ File > Show Menubar > uncheck
 + Open visual studio code
 	+ Install `Code Runner` and `Trailing Spaces` extension
 	+ File > Preference > Settings  and add these to the right inside `{}`:
