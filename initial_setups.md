@@ -1,7 +1,7 @@
 # Solus 3 initial setup info
 
 + Mouse and Touchpad > Touchpad section : natural scrolling : off
-+ `sudo eopkg install vim git gnome-tweak-tool --yes`
++ `sudo eopkg install vim neovim git gnome-tweak-tool --yes`
 + `sudo eopkg it -c system.devel --yes`
 + `sudo eopkg upgrade --yes`
 + `sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder ufw guvcview gitg taskwarrior liferea simple-scan hplip-drivers postgresql sqlite3 mongodb pandoc firefox opera-stable texlive-all cdrtools --yes`
