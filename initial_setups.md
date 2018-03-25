@@ -6,7 +6,6 @@
 + `sudo eopkg upgrade --yes`
 + `sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder ufw guvcview gitg taskwarrior liferea simple-scan hplip-drivers postgresql sqlite3 mongodb pandoc firefox opera-stable texlive-all cdrtools iftop zeal gnuplot nasc strace audacity dia --yes`
 + `sudo ufw enable`
-+ `sudo wget` the latest binary from [shiori](https://github.com/RadhiFadlillah/shiori/releases) release ([current atm](https://github.com/RadhiFadlillah/shiori/releases/download/v1.0/shiori)) ino `/usr/local/bin/` directory and then do `sudo chmod +x shiori`
 + `git config --global core.editor "vim"`
 
 + privacy > usages and history > off
@@ -43,6 +42,7 @@
 + Firefox `about:config` set
     + `toolkit.cosmeticAnimations.enabled` to false
     + `privacy.resistFingerprinting` to true
+    + `privacy.resistFingerprinting.autoDeclineNoUserInputCanvasPrompts` to true
     + other about conig setttings to set and explanation [here](https://www.privacytools.io/#about_config)
     + `about:healthreport` top right, turn off sharing info
 
