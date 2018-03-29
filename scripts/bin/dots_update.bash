@@ -4,6 +4,7 @@ git add -f \
 $HOME/.gitignore \
 $HOME/.bashrc \
 $HOME/.vimrc \
+$HOME/.gvimrc \
 $HOME/scripts/ \
 $HOME/README.md \
 $HOME/.mozilla/firefox/*.default/chrome/userChrome.css \
