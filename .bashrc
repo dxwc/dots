@@ -1,4 +1,4 @@
-source /usr/share/defaults/etc/profile
+#source /usr/share/defaults/etc/profile
 
 #################################################
 ################################### Alias #######
@@ -31,7 +31,8 @@ alias temp='cd $(mktemp -d /tmp/deleteme-XXX)'
 alias grep='grep --color=auto $"@"'
 
 #################################################
-################################### Promt #######
+################################## Others #######
 #################################################
 
 PS1="[\w] "
+export PATH=$HOME/scripts/bin/:$PATH

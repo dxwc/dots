@@ -1,21 +1,16 @@
-# Solus 3 initial setup info
+# Solus 3, initial setup info
 
-+ `sudo eopkg upgrade --yes`
-+ Mouse and Touchpad > Touchpad section : natural scrolling : off
-+ `sudo eopkg install vim neovim git gnome-tweak-tool --yes`
-+ `sudo eopkg it -c system.devel --yes`
-+ `sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder ufw guvcview gitg taskwarrior liferea simple-scan hplip-drivers postgresql sqlite3 mongodb pandoc firefox opera-stable texlive-all cdrtools iftop zeal gnuplot nasc strace audacity dia --yes`
-+ `sudo ufw enable`
-+ `git config --global core.editor "vim"`
-
++ `cd /tmp/; wget https://raw.githubusercontent.com/dxwc/dots/master/scripts/initial_setup.bash; bash initial_setup.bash`
++ `cd /tmp/; wget https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts; sudo -E vim -p /etc/hosts /tmp/hosts` and copy paste and save after the up sections
++ Search for "budgie desktop settings", under "Autostart"
+    + Add command: `setxkbmap -option caps:swapescape`
++ Mouse and Touchpad > Touchpad section : natural scrolling : on
 + privacy > usages and history > off
-
 + keyboard > go to the bottom "+" > command: 
 	+ `gnome-terminal` to `ctrl + alt + t`
 	+ `gnome-screenshot -i` to `ctrl + ;`
 	+ `nautilus --new-window` to `super + 2`
 	+ `firefox` to `super + 1`
-
 + gnome-terminal > Edit > Preference > General > Uncheck show menubar
 + gnome-terminal > Edit > Propfile Preference
 	+ General
@@ -34,23 +29,18 @@
 	+ Scrolling
 		+ Uncheck show scrollbar
 		+ Uncheck show scrollbar
-
 + bottom right open settings tab > click gear icon > font > set everything but window title to 14
-
 + gimp > Window > (CHECK) Single Window Mode
-
 + Firefox `about:config` set
     + `toolkit.cosmeticAnimations.enabled` to false
     + `privacy.resistFingerprinting` to true
     + `privacy.resistFingerprinting.autoDeclineNoUserInputCanvasPrompts` to true
     + other about conig setttings to set and explanation [here](https://www.privacytools.io/#about_config)
     + `about:healthreport` top right, turn off sharing info
-
 + Setup printer
     1. Turn on printer
     2. Login to router settings page and note the IP of the printer (if still reserved, it's will be `192.168.0.105`)
     3. Menu > Printer Settings > Unlock > Add > Network printer > Find Network Printer > enter the IP address > Forward > Apply
-+ `sudo vim /etc/profile` and add the line: `setxkbmap -option caps:swapescape`
 + `gnome-tweak-tool &`
 	+ Windows > Window focus > Sloppy
 + bottom right, click sound icon > sound settings > 
@@ -61,6 +51,9 @@
 	+ check to show date
 + bottom right, click on bluetooth icon
 	+ bluetoooth settings > turn off bluetooth on top
++ `cd ~; git clone https://github.com/dxwc/dots` and place files where
+  needed
+    + `sudo cp $HOME/.vimrc /root/`
 + Open visual studio code
 	+ Install `Code Runner` and `Trailing Spaces` extension
 	+ File > Preference > Settings  and add these to the right inside `{}`:
@@ -74,3 +67,11 @@
 	    "editor.insertSpaces": true,
 	    "editor.detectIndentation": false
 	  ```
++ Restart
+
+# TODO
+
+Budgie desktop settings not working to allow multiple startup command line
+programs to be set. Learn how to use systemd to setup init script. Try out
+one with setting aliases and path at startup, bash wouldn't have to set
+them every time
