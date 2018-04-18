@@ -68,10 +68,3 @@
 	    "editor.detectIndentation": false
 	  ```
 + Restart
-
-# TODO
-
-Budgie desktop settings not working to allow multiple startup command line
-programs to be set. Learn how to use systemd to setup init script. Try out
-one with setting aliases and path at startup, bash wouldn't have to set
-them every time

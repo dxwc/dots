@@ -17,4 +17,4 @@ notify-send "NEED PASSWORD" "in initial_setup.bash"
 sudo eopkg it -c system.devel --yes
 
 notify-send "NEED PASSWORD" "in initial_setup.bash"
-sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder guvcview gitg taskwarrior liferea simple-scan hplip-drivers postgresql sqlite3 mongodb pandoc firefox opera-stable cdrtools iftop zeal gnuplot nasc strace audacity dia --yes
+sudo eopkg install vscode vlc kdenlive gimp simplescreenrecorder guvcview gitg calcurse liferea simple-scan hplip-drivers postgresql sqlite3 mongodb pandoc firefox opera-stable cdrtools iftop zeal gnuplot nasc strace audacity dia --yes
