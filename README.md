@@ -2,8 +2,9 @@
 
 + `cd /tmp/; wget https://raw.githubusercontent.com/dxwc/dots/master/scripts/initial_setup.bash; bash initial_setup.bash`
 + `cd /tmp/; wget https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts; sudo -E vim -p /etc/hosts /tmp/hosts` and copy paste and save after the up sections
-+ Search for "budgie desktop settings", under "Autostart"
++ Search for "budgie desktop settings", under "Autostart", add command:
     + Add command: `setxkbmap -option caps:swapescape`
+    + Add command: `sleep 20; node ~/scripts/notify_nyc/index.js`
 + Mouse and Touchpad > Touchpad section : natural scrolling : on
 + privacy > usages and history > off
 + keyboard > go to the bottom "+" > command: 
