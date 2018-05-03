@@ -24,6 +24,7 @@ alias o='nautilus --no-desktop --new-window . &'
 alias pdf='clear; evince &'
 alias gstat='git status'
 alias ff='firefox -no-remote -P &'
+alias n='clear; node ~/scripts/notify_nyc/index.js'
 
 ### Others ###
 alias m='echo "####################################################"'
