@@ -1,12 +1,12 @@
 // ==UserScript==
 // @description  Disable auto-playing of "up next" videos on youtube
-// @include      https://www.youtube.com/watch?v=*
-// @match        https://www.youtube.com/watch?v=*
-// @grant        none
-// @name         Disable youtube autoplay
-// @namespace    dxwc
-// @run-at       document-end
-// @version      0.0.1
+// @include      https://www.youtube.com/watch?v=*
+// @match        https://www.youtube.com/watch?v=*
+// @grant        none
+// @name         Disable youtube autoplay
+// @namespace    dxwc
+// @run-at       document-end
+// @version      0.0.1
 // ==/UserScript==
 
 (
@@ -20,23 +20,12 @@
                 if
                 (
                     document
-                    .getElementById('autoplay-checkbox')
-                    .checked
+                    .getElementById('toggleBar')
                 )
                     document
-                    .getElementById('autoplay-checkbox')
+                    .getElementById('toggleBar')
                     .click();
-
-                /* Turn off annotations */
-                if
-                (
-                    document
-                    .getElementsByClassName('ytp-menuitem')[1]
-                    .getAttribute('aria-checked')
-                )
-                    document
-                    .getElementsByClassName('ytp-menuitem')[1]
-                    .setAttribute('aria-checked', false);
+                // TODO: turn off annotation
             },
             3000
         )
