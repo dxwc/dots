@@ -1,13 +1,1 @@
 *
-!.gitignore
-!.bashrc
-!.vimrc
-!.vim/
-!.vim/*
-.vim/bundle/
-.vim/.netrwhist
-!scripts/
-!scripts/*
-!Documents/
-!Documents/*
-!Documents/saved/*
