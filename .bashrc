@@ -1,9 +1,5 @@
 #source /usr/share/defaults/etc/profile
 
-#################################################
-################################### Alias #######
-#################################################
-
 ### Files ###
 alias ls='ls --color=auto'
 alias c='clear'
@@ -30,10 +26,6 @@ alias n='clear; node ~/scripts/notify_nyc/index.js'
 alias m='echo "####################################################"'
 alias temp='cd $(mktemp -d /tmp/deleteme-XXX)'
 alias grep='grep --color=auto $"@"'
-
-#################################################
-################################## Others #######
-#################################################
 
 PS1="[\w] "
 export PATH=$HOME/scripts/bin/:$PATH
