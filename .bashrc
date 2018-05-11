@@ -27,5 +27,6 @@ alias m='echo "####################################################"'
 alias temp='cd $(mktemp -d /tmp/deleteme-XXX)'
 alias grep='grep --color=auto $"@"'
 
-PS1="[\w] "
 export PATH=$HOME/scripts/bin/:$PATH
+task list
+PS1="[\w] "
