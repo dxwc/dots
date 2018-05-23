@@ -32,6 +32,7 @@
 + bottom right open settings tab > click gear icon > font > set everything but window title to 14
 + gimp > Window > (CHECK) Single Window Mode
 + Firefox `about:config` set
+    + `browser.showQuitWarning` to true
     + `toolkit.cosmeticAnimations.enabled` to false
     + `privacy.resistFingerprinting` to true
     + `privacy.resistFingerprinting.autoDeclineNoUserInputCanvasPrompts` to true
