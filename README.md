@@ -52,6 +52,14 @@
 	+ check to show date
 + bottom right, click on bluetooth icon
 	+ bluetoooth settings > turn off bluetooth on top
++ Search for calendar
+    + Top right: weather
+        + automatic location: off
+        + show weather: off
++ bottom right > settings > bottom panel > Setting
+    + automatic hide: intelligent
+    + transparency: dynamic
+    + size: 40
 + `cd ~; git clone https://github.com/dxwc/dots` and place files where
   needed
     + `sudo cp $HOME/.vimrc /root/`
