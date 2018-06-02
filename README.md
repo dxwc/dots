@@ -63,6 +63,13 @@
 + `cd ~; git clone https://github.com/dxwc/dots` and place files where
   needed
     + `sudo cp $HOME/.vimrc /root/`
++ Turn off wifi if connected, and then find out the interface name by
+  running `ifconfig`, use that info to change mac address like so:
+    + `sudo ifconfig wlp1s0 down`
+    + `sudo macchanger -a wlp1s0`
+    + `sudo ifconfig wlp1s0 up`
+    + Verify by running: `macchanger -s wlp1s0`
+    + Reconnect to wifi
 + Open visual studio code
 	+ Install `Code Runner` and `Trailing Spaces` extension
 	+ File > Preference > Settings  and add these to the right inside `{}`:
