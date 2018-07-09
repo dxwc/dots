@@ -2,7 +2,7 @@ color listnormal black default
 color listfocus black default standout 
 color listnormal_unread black default bold
 color listfocus_unread black default bold standout
-color info black default
+color info black default bold
 color background black default
 color article black default
 
