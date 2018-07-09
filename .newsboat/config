@@ -1,0 +1,24 @@
+color listnormal black default
+color listfocus black default standout 
+color listnormal_unread black default bold
+color listfocus_unread black default bold standout
+color info black default
+color background black default
+color article black default
+
+browser firefox
+
+unbind-key g # bound to `sort` by default
+bind-key g home
+unbind-key G # bound to `rev-sort` by default
+bind-key G end
+
+unbind-key h
+unbind-key j
+unbind-key k
+unbind-key l
+
+bind-key h quit
+bind-key j down
+bind-key k up
+bind-key l open
