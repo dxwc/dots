@@ -1,5 +1,6 @@
 [
 	{
+		"installDate": 1527092772900,
 		"enabled": true,
 		"updateUrl": null,
 		"md5Url": null,
@@ -27,6 +28,7 @@
 		"id": 1
 	},
 	{
+		"installDate": 1527092772900,
 		"enabled": true,
 		"updateUrl": null,
 		"md5Url": null,
@@ -49,6 +51,7 @@
 		"id": 2
 	},
 	{
+		"installDate": 1527092772900,
 		"enabled": true,
 		"updateUrl": null,
 		"md5Url": null,
@@ -69,6 +72,7 @@
 		"id": 3
 	},
 	{
+		"installDate": 1527092772900,
 		"enabled": true,
 		"updateUrl": null,
 		"md5Url": null,
@@ -87,5 +91,26 @@
 			}
 		],
 		"id": 4
+	},
+	{
+		"installDate": 1531535843600,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "jwz",
+		"sections": [
+			{
+				"code": "body\n{\n    font-size: 100%;\n    color: inherit;\n    background-color: inherit;\n    background: #eee;\n    margin: auto;\n    max-width: 100%;\n    padding: 0;\n    max-width: 90% !important;\n}\n\n.entry-meta, .entry-utility, .navigation, .comment-author, .entry-title, #sidebar h2, #sidebar caption, #bottom-widget h2, #bottom-widget caption, #sidebar textarea, #sidebar input[type=\"text\"], #sidebar input[type=\"submit\"], #s, .comment-author-jwz > .comment-body, .comment-author-jwz > div > .comment-body\n{\n    color: inherit;\n    background: inherit;\n}\n\na, a:link, a:hover\n{\n    color: blue;\n    border-bottom: 1px solid blue;\n}",
+				"urls": [],
+				"urlPrefixes": [],
+				"domains": [
+					"www.jwz.org"
+				],
+				"regexps": []
+			}
+		],
+		"id": 5
 	}
 ]
