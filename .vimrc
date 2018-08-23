@@ -39,3 +39,13 @@ set ts=8 sw=4 sts=4 tw=75 expandtab
 
 "don't like braces highlighting
 let g:loaded_matchparen= 0
+
+"plugins in .vim/bundle/
+"git clone https://github.com/junegunn/goyo.vim
+"git clone https://github.com/plasticboy/vim-markdown
+set runtimepath+=~/.vim/bundle/goyo.vim
+set runtimepath+=~/.vim/bundle/vim-markdown
+
+"https://github.com/junegunn/goyo.vim/issues/49
+"let g:goyo_margin_top = 0
+"let g:goyo_margin_bottom = 0

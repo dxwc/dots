@@ -27,6 +27,12 @@ alias m='echo "####################################################"'
 alias temp='cd $(mktemp -d /tmp/deleteme-XXX)'
 alias grep='grep --color=auto $"@"'
 
-export PATH=$HOME/scripts/bin/:$PATH
+alias cl='cd ~/Documents/college/'
+
+#export PATH=$HOME/scripts/bin/:$PATH
 task list
 PS1="[\w] "
+
+export EDITOR=vim
+export VISUAL=vim
+xdg-mime default vim.desktop text/plain
