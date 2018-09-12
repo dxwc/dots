@@ -43,8 +43,12 @@ let g:loaded_matchparen= 0
 "plugins in .vim/bundle/
 "git clone https://github.com/junegunn/goyo.vim
 "git clone https://github.com/plasticboy/vim-markdown
+"git clone https://github.com/vim-pandoc/vim-pandoc-syntax
 set runtimepath+=~/.vim/bundle/goyo.vim
-set runtimepath+=~/.vim/bundle/vim-markdown
+"set runtimepath+=~/.vim/bundle/vim-pandoc-syntax
+augroup pandoc_syntax
+    au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
+augroup END
 
 "https://github.com/junegunn/goyo.vim/issues/49
 "let g:goyo_margin_top = 0
