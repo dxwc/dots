@@ -24,6 +24,7 @@ alias gstat='git status'
 alias ff='firefox -no-remote -P &'
 alias n='clear; node ~/Documents/notify_nyc/index.js | less -R'
 alias op='xdg-open &>/dev/null'
+alias sub='nvm exec 8.11.4 sub "@"'
 
 ### Others ###
 alias m='echo "####################################################"'
@@ -33,7 +34,7 @@ alias grep='grep --color=auto $"@"'
 alias cl='cd ~/Documents/college/'
 
 #export PATH=$HOME/scripts/bin/:$PATH
-task list
+#task list
 PS1="[\w] "
 
 export EDITOR=vim
@@ -80,3 +81,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 setxkbmap -option caps:swapescape
+
+alias note='/usr/local/bin/note "$@"'
