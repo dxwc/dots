@@ -84,3 +84,15 @@
 	    "editor.detectIndentation": false
 	  ```
 + Restart
++ Download:
+    + <https://download.kiwix.org/release/kiwix-tools/>
+    + <http://download.kiwix.org/zim/>
+        + wikipedia
+        + archlinux
+        + gardening
+        + installgentoo
+        + superuser
+        + wikem
+        + wikispecies
+        + woodworking
+
