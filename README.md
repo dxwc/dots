@@ -95,4 +95,7 @@
         + wikem
         + wikispecies
         + woodworking
+    + Usages example :
+        + `./kiwix-serve *.zim --port 9001` or, individualy :
+        + `./kiwix-serve ./wikem_en_all_2018-10.zim --port 9001` 
 
