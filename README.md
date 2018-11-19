@@ -84,6 +84,22 @@
 	    "editor.detectIndentation": false
 	  ```
 + Restart
++ Install NextCloud : `sudo snap install nextcloud` (may take a while to
+  start for the first time, then on web browser go to `localhost` to set it
+  up, after registration it may take a minute or so to get everything
+  ready)
+    + To stop the server `systemctl stop snap.nextcloud.apache`
+    + To start the server again: `systemctl start snap.nextcloud.apache`
+    + After first setup, top right, click gear or user icon, settings:
+        + Left: basic settings, change background job to ajax
+        + Left: sharing, uncheck everything
+        + Left: **Usage survey**: uncheck everything
+    + Top right, user icon, app
+        + Disable everything
+    + Left: click Organization
+        + Endable the official calendar app
+    + `sudo vim /var/snap/nextcloud/9551/nextcloud/config/config.php`
+        + in the array, after localhost add: `192.168.0.*`, save
 + Download:
     + <https://download.kiwix.org/release/kiwix-tools/>
     + <http://download.kiwix.org/zim/>
