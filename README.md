@@ -38,6 +38,8 @@
     + `privacy.resistFingerprinting.autoDeclineNoUserInputCanvasPrompts` to true
     + other about conig setttings to set and explanation [here](https://www.privacytools.io/#about_config)
     + `about:healthreport` top right, turn off sharing info
+    + TODO: place config changes in a user.js file
+    + TODO: add Decentraleyes to plugins to install
 + Setup printer
     1. Turn on printer
     2. Login to router settings page and note the IP of the printer (if still reserved, it's will be `192.168.0.105`)
