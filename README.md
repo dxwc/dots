@@ -102,6 +102,10 @@
         + Endable the official calendar app
     + `sudo vim /var/snap/nextcloud/9551/nextcloud/config/config.php`
         + in the array, after localhost add: `192.168.0.*`, save
+    + If stops working after computer restart, enter these two line once
+      and reboot :
+        + `sudo apparmor_parser -r /var/lib/snapd/apparmor/profiles/`
+        + `sudo usysconf run apparmor -f`
 + Download:
     + <https://download.kiwix.org/release/kiwix-tools/>
     + <http://download.kiwix.org/zim/>
