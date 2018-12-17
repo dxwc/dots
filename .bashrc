@@ -24,7 +24,6 @@ alias gstat='git status'
 alias ff='firefox -no-remote -P &'
 alias n='clear; node ~/Documents/notify_nyc/index.js | less -R'
 alias op='xdg-open &>/dev/null'
-alias sub='nvm exec 8.11.4 sub "@"'
 
 ### Others ###
 alias m='echo "####################################################"'
