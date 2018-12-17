@@ -1,0 +1,7 @@
+@-moz-document domain(youtube.com)
+{
+    #secondary
+    {
+        display : none;
+    }
+}
