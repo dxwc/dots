@@ -82,3 +82,18 @@ export NVM_DIR="$HOME/.nvm"
 setxkbmap -option caps:swapescape
 
 alias note='/usr/local/bin/note "$@"'
+alias loc='git ls-files | xargs cat | wc -l'
+alias locls='git ls-files | xargs wc -l'
+function get_feed()
+{
+    curl -s -L "$1" | sfeed_web "$1"
+}
+function upgo()
+{
+    sfeed_update
+    mkdir -p $HOME/.sfeed/frames
+    builtin cd $HOME/.sfeed/frames
+    sfeed_frames $HOME/.sfeed/feeds/*
+    builtin cd $OLDPWD
+    firefox $HOME/.sfeed/frames/index.html
+}
