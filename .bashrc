@@ -34,11 +34,10 @@ alias cl='cd ~/Documents/college/'
 
 #export PATH=$HOME/scripts/bin/:$PATH
 #task list
-PS1="[\w] "
 
 export EDITOR=vim
 export VISUAL=vim
-xdg-mime default vim.desktop text/plain
+#xdg-mime default vim.desktop text/plain
 
 function mac
 {
@@ -75,9 +74,9 @@ function stopwatch(){
 }
 
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 setxkbmap -option caps:swapescape
 
@@ -97,3 +96,12 @@ function upgo()
     builtin cd $OLDPWD
     firefox $HOME/.sfeed/frames/index.html
 }
+
+alias me='ip r'
+
+u_name=""
+if [ "$(whoami)" == "root" ]; then
+    u_name="ROOT "
+fi
+PS1="[$u_name\w] "
+alias godmode='sudo -E su --preserve-environment'
