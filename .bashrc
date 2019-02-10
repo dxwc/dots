@@ -96,6 +96,15 @@ function upgo()
     builtin cd $OLDPWD
     firefox $HOME/.sfeed/frames/index.html
 }
+function gset()
+{
+    git init
+    git config --list
+    echo "git config --local user.name dxwc"
+    git config --local user.name dxwc
+    echo "git config --local user.email dxwc@users.noreply.github.com"
+    git config --local user.email dxwc@users.noreply.github.com
+}
 
 alias me='ip r'
 
