@@ -6,7 +6,8 @@ color info black default bold
 color background black default
 color article black default
 
-browser firefox
+browser waterfox
+macro m set browser "/usr/bin/mpv %u"; open-in-browser ; set browser "/opt/waterfox/waterfox %u" # to use: ,m (comma then m)
 
 unbind-key g # bound to `sort` by default
 bind-key g home
