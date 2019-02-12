@@ -105,6 +105,11 @@ function gset()
     echo "git config --local user.email dxwc@users.noreply.github.com"
     git config --local user.email dxwc@users.noreply.github.com
 }
+function save()
+{
+    cd $(mktemp -d /tmp/deleteme-XXX)
+    wget -d -nv --html-extension --mirror --convert-links --adjust-extension --page-requisites --no-parent "$@" --user-agent=""
+}
 
 alias me='ip r'
 
