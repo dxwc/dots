@@ -16,6 +16,9 @@ alias rm='rm -i "$@"'
 alias cp='cp -i "$@"'
 alias whereis='find . -name "$@"'
 
+alias cl='cd ~/Documents/college/'
+alias note='/usr/local/bin/note "$@"'
+
 ### Applications ###
 alias pp='python3 "$@"'
 alias o='nautilus --no-desktop --new-window . &'
@@ -24,20 +27,19 @@ alias gstat='git status'
 alias ff='firefox -no-remote -P &'
 alias n='clear; node ~/Documents/notify_nyc/index.js | less -R'
 alias op='xdg-open &>/dev/null'
+alias img_clean='exiftool -all= -overwrite_original "$@"'
+alias me='ip r'
+alias loc='git ls-files | xargs cat | wc -l'
+alias locls='git ls-files | xargs wc -l'
 
 ### Others ###
 alias m='echo "####################################################"'
 alias temp='cd $(mktemp -d /tmp/deleteme-XXX)'
 alias grep='grep --color=auto $"@"'
-
-alias cl='cd ~/Documents/college/'
-
-#export PATH=$HOME/scripts/bin/:$PATH
-#task list
+alias godmode='sudo -E su --preserve-environment'
 
 export EDITOR=vim
 export VISUAL=vim
-#xdg-mime default vim.desktop text/plain
 
 function mac
 {
@@ -80,9 +82,6 @@ export NVM_DIR="$HOME/.nvm"
 
 setxkbmap -option caps:swapescape
 
-alias note='/usr/local/bin/note "$@"'
-alias loc='git ls-files | xargs cat | wc -l'
-alias locls='git ls-files | xargs wc -l'
 function get_feed()
 {
     curl -s -L "$1" | sfeed_web "$1"
@@ -108,15 +107,18 @@ function gset()
 function save()
 {
     cd $(mktemp -d /tmp/deleteme-XXX)
-    wget -d -nv --html-extension --mirror --convert-links --adjust-extension --page-requisites --no-parent "$@" --user-agent=""
+    wget -d -nv --html-extension -r -l 1 --convert-links --adjust-extension --page-requisites --no-parent --span-hosts --user-agent="" "$@"
+}
+function save_bare()
+{
+    cd $(mktemp -d /tmp/deleteme-XXX)
+    wget -d -nv --html-extension --convert-links --adjust-extension --page-requisites --no-parent --span-hosts --user-agent="" "$@"
 }
 
-alias me='ip r'
+PATH=/opt/waterfox/:"$PATH"
 
 u_name=""
 if [ "$(whoami)" == "root" ]; then
     u_name="ROOT "
 fi
 PS1="[$u_name\w] "
-alias godmode='sudo -E su --preserve-environment'
-PATH=/opt/waterfox/:"$PATH"
