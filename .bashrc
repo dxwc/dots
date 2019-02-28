@@ -138,5 +138,5 @@ trim()
 define()
 {
     # npm install -g unfluff
-    curl -s "https://www.vocabulary.com/dictionary/$(trim $@)" | unfluff | node ~/scripts/stdin_define_json_parse.js
+    curl --user-agent "" --silent "https://www.vocabulary.com/dictionary/$(trim $@)" | unfluff | node ~/scripts/stdin_define_json_parse.js
 }
