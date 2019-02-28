@@ -108,11 +108,13 @@ function save()
 {
     cd $(mktemp -d /tmp/deleteme-XXX)
     wget -d -nv --html-extension -r -l 1 --convert-links --adjust-extension --page-requisites --no-parent --span-hosts --user-agent="" "$@"
+    rm -rf ~/.wget-hsts
 }
 function save_bare()
 {
     cd $(mktemp -d /tmp/deleteme-XXX)
     wget -d -nv --html-extension --convert-links --adjust-extension --page-requisites --no-parent --span-hosts --user-agent="" "$@"
+    rm -rf ~/.wget-hsts
 }
 
 PATH=/opt/waterfox/:"$PATH"
@@ -122,3 +124,19 @@ if [ "$(whoami)" == "root" ]; then
     u_name="ROOT "
 fi
 PS1="[$u_name\w] "
+
+
+trim()
+{
+    #https://stackoverflow.com/a/1683850
+    local trimmed="$1"
+    trimmed="${trimmed## }"
+    trimmed="${trimmed%% }"
+    echo "$trimmed"
+}
+
+define()
+{
+    # npm install -g unfluff
+    curl -s "https://www.vocabulary.com/dictionary/$(trim $@)" | unfluff | node ~/scripts/stdin_define_json_parse.js
+}
