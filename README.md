@@ -106,6 +106,11 @@
       and reboot :
         + `sudo apparmor_parser -r /var/lib/snapd/apparmor/profiles/`
         + `sudo usysconf run apparmor -f`
+    + [ff2mpv](https://github.com/woodruffw/ff2mpv)
+        + also save the scripts to `~/.waterfox/native-messaging-hosts/`
+            + `chmod +x ff2mpv`
+            + on linux path needs to be absolute and point to file
+                + ruby is noticibly faster than python
 + Download:
     + <https://download.kiwix.org/release/kiwix-tools/>
     + <http://download.kiwix.org/zim/>
