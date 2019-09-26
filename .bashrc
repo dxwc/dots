@@ -3,6 +3,7 @@
 
 ### Files ###
 alias ls='ls --color=auto'
+alias lnew='ls --color=auto -tc -G -h'
 alias c='clear'
 alias cc='clear && ls -a'
 alias ..='cd ..'
@@ -15,7 +16,7 @@ alias mv='mv -i "$@"'
 alias rm='rm -i "$@"'
 alias cp='cp -i "$@"'
 alias whereis='find . -name "$@"'
-
+alias img='sxiv "$@"'
 alias cl='cd ~/Documents/college/'
 alias note='/usr/local/bin/note "$@"'
 
@@ -31,6 +32,9 @@ alias img_clean='exiftool -all= -overwrite_original "$@"'
 alias me='ip r'
 alias loc='git ls-files | xargs cat | wc -l'
 alias locls='git ls-files | xargs wc -l'
+alias vid='ls -ct ~/Videos/ | dmenu -i -l 15  -fn 'Hack-30' | xargs -I {} mpv ~/Videos/{} &'
+alias r='ranger'
+alias img='xsiv -f '
 
 ### Others ###
 alias m='echo "####################################################"'
@@ -113,7 +117,7 @@ function save()
 function save_bare()
 {
     cd $(mktemp -d /tmp/deleteme-XXX)
-    wget -d -nv --html-extension --convert-links --adjust-extension --page-requisites --no-parent --span-hosts --user-agent="" "$@"
+    wget -d -nv --html-extension --convert-links --adjust-extension --page-requisites --no-parent --span-hosts --convert-links --timestamping --no-host-directories --user-agent="" "$@"
     rm -rf ~/.wget-hsts
 }
 
