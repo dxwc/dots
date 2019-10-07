@@ -144,3 +144,15 @@ define()
     # npm install -g unfluff
     curl --user-agent "" --silent "https://www.vocabulary.com/dictionary/$(trim $@)" | unfluff | node ~/scripts/stdin_define_json_parse.js
 }
+
+rmc()
+{
+    cd ~/.cache/
+    ls --hide=thumbnails . | xargs rm -rf
+    cd -
+    clear
+    echo "cleaned, ls ~/.cache : $(ls ~/.cache)"
+}
+
+
+
