@@ -147,11 +147,15 @@ define()
 
 rmc()
 {
-    cd ~/.cache/
-    ls --hide=thumbnails . | xargs rm -rf
-    cd -
-    clear
-    echo "cleaned, ls ~/.cache : $(ls ~/.cache)"
+    if [[ -d ~/.cache ]]; then
+        cd ~/.cache/
+        ls --hide=thumbnails . | xargs rm -rf
+        cd -
+        clear
+        echo "Cleaned, ls ~/.cache : $(ls ~/.cache)"
+    else
+        echo "Directory ~/.cache doesn't exist"
+    fi
 }
 
 
